@@ -20,4 +20,4 @@ const WinScreen = ({ onPlayAgain }) => {
   );
 };
 
-export default WinScreen;
+export default WinScreen; 

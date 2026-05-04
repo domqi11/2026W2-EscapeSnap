@@ -18,4 +18,4 @@ const FinalRiddle = ({ finalRiddle }) => {
   );
 };
 
-export default FinalRiddle;
+export default FinalRiddle; 

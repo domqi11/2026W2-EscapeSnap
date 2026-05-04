@@ -27,4 +27,4 @@ const RevealedLetters = ({ letters }) => {
   );
 };
 
-export default RevealedLetters;
+export default RevealedLetters; 

@@ -41,4 +41,4 @@ const FinalRiddlePage = () => {
     );
 };
 
-export default FinalRiddlePage;
+export default FinalRiddlePage; 

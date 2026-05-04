@@ -48,4 +48,4 @@ const FinalRiddleInput = ({ gameId, onCorrect = () => {} }) => {
   );
 };
 
-export default FinalRiddleInput;
+export default FinalRiddleInput; 
