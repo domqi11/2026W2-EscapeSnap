@@ -27,14 +27,14 @@ const FinalRiddleInput = ({ gameId, onCorrect = () => {} }) => {
       <input
         type="text"
         placeholder="Input riddle guess..."
-        className="w-full bg-gray-900 border-gray-200 min-h-15 input input-lg text-gray-500 text-2xl font-extraitalic"
+        className="w-full bg-gray-950 border-gray-200 min-h-15 input input-lg text-gray-500 text-2xl font-extraitalic"
         onChange={e => setGuess(e.target.value)}
       />
       <button
-        className="w-full min-h-15 btn bg-red-600 mt-1 font-italic text-2xl"
+        className="w-full min-h-15 btn bg-red-600 mt-1 font-italic text-2xl text-white"
         onClick={handleSubmit}
       >
-        Make Guess
+        Submit
       </button>
 
       {result === 'incorrect' && (

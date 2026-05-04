@@ -28,7 +28,12 @@ const FinalRiddlePage = () => {
   if (hasWon) return <WinScreen onPlayAgain={() => navigate('/game/create')} />;
 
   return (
-      <div className='min-h-screen bg-gray-900'>
+      <div className='min-h-screen bg-gray-950'>
+      <header className="border-b border-gray-800 px-8 py-4 flex items-center justify-between">
+        <span className="text-red-500 font-bold text-xl tracking-widest uppercase">
+          ESCAPESNAP
+        </span>
+      </header>
         <FinalRiddle finalRiddle={finalRiddle} />
           <RevealedLetters letters={letters} />
           <FinalRiddleInput gameId={gameId} onCorrect={() => setHasWon(true)} />

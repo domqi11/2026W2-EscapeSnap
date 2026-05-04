@@ -2,12 +2,12 @@ import React from 'react';
 
 const FinalRiddle = ({ finalRiddle }) => {
   return (
-    <div className="bg-gray-900 py-6 px-12 mx-8 my-8">
+    <div className="bg-gray-950 py-6 px-12 mx-8 my-8">
       <div className='flex justify-content items-center mt-6 mb-6'>
         <h2 className="text-white font-extraitalic text-7xl uppercase tracking-widest mb-4 mx-2">
             THE FINAL
         </h2>
-        <h2 className='text-red-600 font-extrabold text-7xl uppercase tracking-widest mb-1 px-4'> 
+        <h2 className='text-red-600 font-extrabold text-7xl uppercase tracking-widest mb-4 px-4'> 
             Riddle 
         </h2>
       </div>
